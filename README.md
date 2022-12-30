@@ -1,2 +1,3 @@
 # my-code-AL.github.io
-website portfolio
+this is my website portfolio where I simply test out some of what I've been learning with reference to HTML/CSS/JS.
+It isn't perfect, but I hope to continue working on it over time.
