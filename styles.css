@@ -1,0 +1,216 @@
+*{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: rgb(222, 222, 222);
+    font-family: "Playfair Display";
+    scroll-behavior: smooth;
+}
+a{
+    transition: font-size 600ms ease-in-out;
+}
+a .email{
+    transition: font-size 600ms ease-in-out;
+}
+a:link{
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(222, 222, 222);
+}
+a:hover{
+    color: rgb(147, 147, 147);
+    font-size: 1.25rem;
+}
+a:active{}
+/*******************_Page_Header_************************/
+header{
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+   
+    background-color: black;
+    align-items: center;
+    height: 5rem;
+    border-bottom: 2px solid rgb(222, 222, 222);
+   
+}
+
+header h1{
+    font-family: "Rochester";
+    font-size: large;
+    margin-left: 5%;
+    font-size: 2rem;
+}
+head .nav{
+    
+}
+header ul{
+    list-style-type: none;
+    flex:auto;
+    margin-right: 2rem;
+    
+}
+header li{
+    display: inline;
+    margin: 0.9rem;
+}
+/******************************************_Page_Body_**********************************************/
+
+/*******************_Personal_Section_************************/
+
+#main{
+    width: 100%;
+    height: 120rem;
+    background-color: black;
+}
+
+#personal_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rem;
+    width: 100%;
+    padding-top: 4rem;
+    background-color: black;
+}
+#image_box{
+    display: flex;
+    background-color: rgb(222, 222, 222);
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    width: 35%;
+    height: 70%;
+    border-radius: 1.5rem;
+    border: 3px dotted black;
+}
+
+.img_me{ 
+    width: 68%;
+    height: 80%;
+    align-self: center;
+    justify-self: center;
+    margin: 0 -1rem;
+    border-radius: 1.5rem;
+}
+#txt_box{
+    display: flex;
+    background-color:black;
+    height: 30%;
+    width: 25%;
+    font-family: "Playfair Display";
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    border: 3px dotted rgb(222, 222, 222);
+}
+#txt_box p{
+    text-align: justify;
+    font-size: large;
+}
+/*************************_img_banner_****************************/
+
+
+#img_banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+}
+#img_panel_header{
+    width:75%;
+    
+}
+#img_panel_header h2{
+    font-size: large;
+    text-align: center;
+}
+
+#pictures{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5rem;
+    height:35rem;
+    
+}
+.some_pictures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    width: 30%;
+    background-color: black;
+    border-radius: 1.5rem;
+    border: 3px dotted rgb(222, 222, 222);
+}
+.some_pictures img{
+    margin-top: 2rem;
+    height: 75%;
+    width: 60%;
+}
+.pictures figcaption{
+    margin-bottom: 1rem;
+}
+/*************************_contact_information_****************************/
+#contact{
+    text-align: center;
+    margin: auto;
+    width: 45%;
+    height: 10rem;
+    background-color: black;
+    border: 2px solid whitesmoke;
+}
+.contact-links {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    }
+.header-contacts{
+   height: auto;
+   width: auto;
+}
+.header-contacts p{
+    
+}
+.contact-links .img-container{
+    margin-top: 2.6rem;
+    display: flex;
+    align-self: flex-start;
+    width: 40%;
+    height: 40%;
+}
+.contact-links .img-container {
+    display: block;
+    width: 40%;
+    height: 40%;
+}
+.email{
+    width: 20%;
+    height: 20%;
+}
+#figcap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+#buttin{
+    background-color: white;
+    color: black;
+   
+    height: 45px;
+    width: 15rem;
+    border: 3px dotted black;
+}
